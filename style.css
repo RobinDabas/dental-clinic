@@ -3,3 +3,10 @@
   margin: 0 auto;
   max-width: 100%;
 }
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
